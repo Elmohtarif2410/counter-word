@@ -26,7 +26,7 @@ body {
     margin-right: auto
 }
 
-@media (min-width: 768) {
+@media (min-width: 768px) {
     .container {width: 750px}
 }
 
@@ -75,6 +75,7 @@ header textarea {
     color: #795548;
     caret-color: #2196f3;
     margin-bottom: 10px;
+    direction: rtl
 }
 
 header textarea::selection {
